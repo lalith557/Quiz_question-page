@@ -1,44 +1,98 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
-.bg-container {
-    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
-    height: 700px;
-    width: 380px;
-    border-radius: 25px;
+.bg_container {
+    background-color: #875fc0;
+    width: 100vw;
+    background-size: cover;
+    padding: 20px;
 }
 
-.main-heading {
-    text-align: center;
-    background-color: #323f4b;
+.heading {
     color: #ffffff;
-    font-family: "Roboto";
-    font-size: 20px;
-    padding: 18px;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-}
-
-.message-container {
-    padding: 25px;
-}
-
-.message-text {
-    color: #ffffff;
-    font-family: "Roboto";
-    padding: 10px;
-}
-
-.message-received {
-    background-color: #52606d;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    border-bottom-right-radius: 8px;
-}
-
-.message-sent {
-    background-color: #47a3f3;
+    font-size: 18px;
     text-align: right;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    border-bottom-left-radius: 8px;
+    font-family: "Roboto";
+}
+
+.card1_container {
+    background-color: #ffffff;
+    height: 38vh;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card1_heading {
+    text-align: center;
+}
+
+.heading1 {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #1f2933;
+}
+
+.para {
+    font-size: 12px;
+    font-family: "Roboto";
+    color: #323f4b;
+    font-weight: 500;
+}
+
+.img {
+    width: 210px;
+}
+
+.card2_container {
+    background-color: #ffffff;
+    height: 56vh;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+
+.unorderedlist {
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.questions {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 6px;
+    width: 220px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-top: 18px;
+}
+
+.question_c {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 6px;
+    width: 220px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+    background-color: #875fc0;
+    color: #ffffff;
+    margin-top: 18px;
+}
+
+.btn_container {
+    text-align: center;
+}
+
+.button {
+    width: 85px;
+    border-radius: 8px;
+    background-color: #fbaf00;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 8px;
+    font-weight: 500;
 }
